@@ -22,13 +22,13 @@
  * `kotlinCompilerExtensionVersion`: The version of Kotlin Compiler Extensions used in the project.
  */
 object AppConfigs {
-    const val namespace = "com.dawinder.musicplayer_jetpackcompose"
-    const val applicationId = "com.dawinder.musicplayer_jetpackcompose"
+    const val namespace = "com.rakuten.soundscript"
+    const val applicationId = "com.rakuten.soundscript"
     const val testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
-    const val compileSdk = 33
+    const val compileSdk = 34
     const val minSdk = 21
-    const val targetSdk = 33
+    const val targetSdk = 34
     const val versionCode = 1
     const val versionName = "1.0"
 

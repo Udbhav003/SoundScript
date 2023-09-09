@@ -12,8 +12,11 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven {
+            url = uri("https://jitpack.io")
+        }
     }
 }
 
-rootProject.name = "MusicPlayer-JetpackCompose"
+rootProject.name = "SoundScript"
 include(":app")

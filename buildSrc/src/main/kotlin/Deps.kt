@@ -13,10 +13,19 @@ object Deps {
     val composeMaterial by lazy { "androidx.compose.material:material:${Versions.composeMaterial}" }
     val activityCompose by lazy { "androidx.activity:activity-compose:${Versions.activityCompose}" }
     val constraintLayoutCompose by lazy { "androidx.constraintlayout:constraintlayout-compose:${Versions.constraintLayoutCompose}" }
+    val navigationCompose by lazy { "androidx.navigation:navigation-compose:${Versions.navigationCompose}" }
+    val accompanist by lazy { "com.google.accompanist:accompanist-systemuicontroller:${Versions.accompanist}" }
+    val spinner by lazy { "com.github.skydoves:orchestra-spinner:${Versions.spinner}"}
+    val audioWaveform by lazy { "com.github.lincollincol:compose-audiowaveform:${Versions.audioWaveform}" }
+    val amplituda by lazy { "com.github.lincollincol:amplituda:${Versions.amplituda}" }
     val lifecycRuntimeKtx by lazy { "androidx.lifecycle:lifecycle-runtime-ktx:${Versions.lifecycleCommon}" }
     val lifecycleViewModelCompose by lazy { "androidx.lifecycle:lifecycle-viewmodel-compose:${Versions.lifecycleCommon}" }
     val lifecycleViewModelKtx by lazy { "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.lifecycleCommon}" }
     val lifecycleRuntimeCompose by lazy { "androidx.lifecycle:lifecycle-runtime-compose:${Versions.lifecycleCommon}" }
+
+    val retrofit by lazy { "com.squareup.retrofit2:retrofit:${Versions.retrofit}" }
+    val retrofitGSONConvertor by lazy { "com.squareup.retrofit2:converter-gson:${Versions.retrofit}" }
+    val loggingInterceptor by lazy { "com.squareup.okhttp3:logging-interceptor:${Versions.loggingInterceptor}" }
 
     val hiltAndroid by lazy { "com.google.dagger:hilt-android:${Versions.hiltAndroid}" }
     val hiltAndroidCompiler by lazy { "com.google.dagger:hilt-android-compiler:${Versions.hiltAndroidCompiler}" }

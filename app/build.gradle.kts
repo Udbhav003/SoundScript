@@ -122,11 +122,21 @@ dependencies {
     implementation(Deps.composeMaterial3)
     implementation(Deps.composeMaterial)
     implementation(Deps.activityCompose)
+    implementation(Deps.navigationCompose)
+    implementation(Deps.accompanist)
+    implementation(Deps.spinner)
+    implementation(Deps.audioWaveform)
+    implementation(Deps.amplituda)
     implementation(Deps.constraintLayoutCompose)
     implementation(Deps.lifecycRuntimeKtx)
     implementation(Deps.lifecycleViewModelCompose)
     implementation(Deps.lifecycleViewModelKtx)
     implementation(Deps.lifecycleRuntimeCompose)
+
+    // Retrofit
+    implementation(Deps.retrofit)
+    implementation(Deps.retrofitGSONConvertor)
+    implementation(Deps.loggingInterceptor)
 
     // Dagger Hilt for Dependency Injection
     implementation(Deps.hiltAndroid)

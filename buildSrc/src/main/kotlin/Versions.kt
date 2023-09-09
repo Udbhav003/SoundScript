@@ -45,9 +45,14 @@ object Versions {
     const val coreKtx = "1.10.1"
 
     const val composeBomCommon = "2023.03.00"
+    const val navigationCompose = "2.7.1"
     const val lifecycleCommon = "2.6.1"
     const val activityCompose = "1.7.2"
+    const val spinner = "1.2.0"
+    const val audioWaveform = "1.1.1"
+    const val amplituda = "2.2.2"
     const val composeMaterial = "1.4.3"
+    const val accompanist = "0.28.0"
     const val constraintLayoutCompose = "1.0.1"
     const val glideCompose = "1.0.0-alpha.1"
     const val lottieCompose = "6.0.1"
@@ -55,6 +60,9 @@ object Versions {
 
     const val hiltAndroid = "2.46"
     const val hiltAndroidCompiler = "2.44"
+
+    const val retrofit = "2.9.0"
+    const val loggingInterceptor = "4.10.0"
 
     const val mediaExoPlayer = "1.0.2"
 
@@ -64,7 +72,7 @@ object Versions {
     const val androidTestJUnit4 = "1.4.3"
 
     //Plugins
-    const val pluginAndroidApplication = "8.2.0-alpha11"
+    const val pluginAndroidApplication = "8.0.2"
     //const val pluginAndroidApplication = "8.1.0-rc01"
     const val pluginKotlinAndroid = "1.8.10"
     const val pluginKotlinJVM = "1.8.10"
